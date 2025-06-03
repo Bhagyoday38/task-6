@@ -43,26 +43,9 @@ acaglobal.com
 
 Unique Passwords for Each Account: Reusing passwords increases vulnerability.
 
-import re
-
-def check_password_strength(password):
-    if len(password) < 12:
-        return "Weak: Password must be at least 12 characters long."
-    if not re.search(r"[a-z]", password):
-        return "Weak: Password must contain at least one lowercase letter."
-    if not re.search(r"[A-Z]", password):
-        return "Weak: Password must contain at least one uppercase letter."
-    if not re.search(r"[0-9]", password):
-        return "Weak: Password must contain at least one digit."
-    if not re.search(r"[!@#$%^&*(),.?\":{}|<>]", password):
-        return "Weak: Password must contain at least one special character."
-    return "Strong: Password meets all criteria."
-
-# Test the function
-passwords = ["password123", "Summer2025!", "G7r$2nV!lQ9zX8", "BlueSky$Dances!UnderMoon", "9u$W2f!Kq8Zx@L"]
-for pwd in passwords:
-    print(f"Password: {pwd} -> {check_password_strength(pwd)}")
+![Screenshot 2025-06-03 184804](https://github.com/user-attachments/assets/43bfb273-3980-4861-b0f3-be5c342c072b)
 
 
-[Screenshot 2025-06-03 184804](https://github.com/user-attachments/assets/db806f9d-3229-4637-981e-25d7bef8e78a)
+
+
 
