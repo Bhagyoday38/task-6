@@ -64,4 +64,5 @@ for pwd in passwords:
     print(f"Password: {pwd} -> {check_password_strength(pwd)}")
 
 
+[Screenshot 2025-06-03 184804](https://github.com/user-attachments/assets/db806f9d-3229-4637-981e-25d7bef8e78a)
 
